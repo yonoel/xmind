@@ -1,0 +1,164 @@
+1.构造不同，见图片1
+2.tool window 注意都是可以拖拉的，左下角点一下，或者快捷键控制
+	Project: Alt+1
+	Version Control: Alt+9
+	Terminal: Alt+F12
+	Window | Restore Default Layout (also available via Ctrl+F12)
+3.Auto-scrolling to/from sources
+	project里配置
+	
+4.General workflows
+	4.1.没有保存，全都是版本控制
+	4.2.Compilation 不会自动编译（因为没保存） you can call Build | Make Project (Ctrl+F9).
+
+5.Shortcuts
+	见图，具体都不一样
+	Find action（搜索shortcuts）
+
+6.Coding assistance
+	Quick-fixes  
+		press Alt+Enter: （基本没用。。没以前的ctrl+1方便）
+	Generating code 
+		via Alt+Insert:
+	Code completion
+		详细分为这几种自动完成
+		Basic completion
+
+		Second basic completion
+
+		Smart completion
+
+		Second smart completion
+
+		Statement completion
+	Templates
+		这个都有用，要记下（idea采用了首字母缩小的方式）
+		main   psvm
+		Iterate over an array    itar
+		Iterate over a collection itco
+		Iterate over a list	itli
+		foreach syntax iter
+		System.out	sout
+		System.err	serr
+		Define a static field psf
+		
+	can be found in Settings/Preferences | Editor | Live Templates.
+	
+	如果有template配置，就不需要code completion 仅需要 tab键即可
+	
+		Postfix templates（很有用啊）
+			输入在变量后面.连接，然后根据模板自动变成表达式
+					在Postfix Completion设置
+		Surround with live template
+				就是自己定义模板，然后用模板里的通配符定义内容
+				
+7.Navigation
+		Search everywhere shift*2
+		Navigate to class	Ctrl+N
+		Navigate to file	Ctrl+Shift+N
+		Navigate to symbol	Ctrl+Shift+Alt+N
+		Switcher			Ctrl+Tab
+		Recent files			Ctrl+E
+		Navigate to declaration		Ctrl+B
+		Navigate to type hierarchy	Ctrl+H
+		Show UML popup				Ctrl+Alt+U
+		File structure				Ctrl+F12
+		Back				Ctrl+Alt+Left
+		Forward				Ctrl+Alt+Right
+
+8.Refactorings
+		Extract variable	Ctrl+Alt+V
+		Extract field		Ctrl+Alt+F	
+		Rafactor this		Ctrl+Shift+Alt+T
+		Rename				Shift+F6
+9.Search
+		Find in path	Ctrl+Shift+F
+		Find usages		Alt+F7
+		Show usages		Ctrl+Alt+F7
+		Find usages settings	Ctrl+Shift+Alt+F7
+		Highlight usages in file	Ctrl+F7
+10.Code formatting
+		IDEA code formatting rules (available via Settings/Preferences | Editor | Code Style) 
+		Reformat code	Ctrl+Alt+L
+11.Running and reloading changes
+		Run			Shift+F10
+		Debug		Shift+F9
+		Make		Ctrl+F9
+	因为不自动编译，所以要编译的话，需要make，如果是server，需要重载没有快捷键（N/A）
+12.Debugging
+		Step into	F7
+		Step over   F8
+		Resume		F9
+		Toggle breakpoint		Ctrl+F8
+		Evaluate expression		Alt+F8
+
+13.Working with Application Servers (Tomcat/TomEE, JBoss EAP, Glassfish, WebLogic, WebSphere)
+		Deploying :
+				1.Configure your artifacts via Project Structure | Artifacts (done automatically for Maven and Gradle projects).
+				2.Configure an application server via Settings | Application Servers.
+				3.Create a run configuration, and then specify the artifacts to deploy and the server to deploy to.
+				
+14.Working with Build Tools (Maven/Gradle)
+		
+			If you want the IDE to synchronize your changes immediately:
+			去Settings | Build, Execution, Deployment | Build Tools 配置
+			
+15.Working with VCS (Git, Mercurial, Subversion, Perforce)		
+
+			Version Control tool window	Alt+9
+			VCS operations popup	Alt+`
+
+			
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+		
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+

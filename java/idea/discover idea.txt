@@ -1,0 +1,73 @@
+User interface
+	 When you need to go back to the editor, press  Escape
+	 Project 			alt+1
+	 Version Control 	alt+9
+	 run				alt+4
+	 debug				alt+5
+	 Terminal			alt+f12
+	 editor				Escape
+	 Distraction Free Mode  ctrl+shif+f12
+	 Navigation Bar 	alt+home
+	 
+	 在任意一个tool window直接输入你要搜索的
+	 
+Editor basics
+	Move the current line of code	Ctrl+Shift+Up Ctrl+Shift+Down
+	Duplicate a line of code				Ctrl+D	
+	Remove a line of code					Ctrl+Y
+	Find in the currently opened file		Ctrl+F
+	Find and replace in the current file	Ctrl+R
+	Navigate between  tabs					Alt+Right Alt+Left
+	Expand or collapse a code block in the editor	Ctrl+NumPad Plus Ctrl+NumPad -
+	Create new...							！Alt+Insert构造什么的都在这
+	Surround with							！Ctrl+Alt+T
+	Highlight usages of a symbol			Ctrl+F7
+	根据语法自动拓展区域 	Ctrl+W，缩小Ctrl+Shift+W
+
+Code completion
+	Basic Completion
+	ctrl+space 如果按两次，推荐更多
+	Smart Completion
+	如果想让系统自动完成一个语句块，甚至链式编程	！Ctrl+Shift+Space 
+	Statements completion 
+		完成方法补齐{}
+		完成代码构造 比如输if自动补齐其他部分
+		包裹方法的执行参数，比如先声明参数，然后在其前输入方法，当选择时不要回车，输快捷键，就自动包裹
+		
+	Postfix Completion	
+		
+			
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+	
+
+	 
