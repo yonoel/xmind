@@ -35,7 +35,163 @@ Code completion
 		包裹方法的执行参数，比如先声明参数，然后在其前输入方法，当选择时不要回车，输快捷键，就自动包裹
 		
 	Postfix Completion	
+		把前缀当.后缀调用比如，params.if
 		
+Navigation
+	Recent Files		Ctrl+E
+	Navigate to Class	Ctrl+N
+	Navigate to File	Ctrl+Shift+N
+	
+Structure
+	显示一个文件的构造	Ctrl+F12
+Select in
+	能把一个文件在任意的一个tool Window中打开 ！Alt+F1
+	Search everywhere全局搜索		！Double Shift
+	Navigate to declaration			Ctrl+B
+	Navigate to type hierarchy		Ctrl+H
+	Show UML（统一模型语言（图表）） pop-up					Ctrl+Alt+U
+	
+Quick pop-ups
+		Documentation	Ctrl+Q
+		Quick definition	Ctrl+Shift+I 速览定义
+		Show usages		Ctrl+Alt+F7
+		Show implementation	Ctrl+Alt+B
+
+Refactoring basics
+		Rename					Shift+F6
+		Extract variable		Ctrl+Alt+V
+		Extract field			Ctrl+Alt+F
+		Extract a constant		Ctrl+Alt+C
+		Extract a method		Ctrl+Alt+M
+		Extract a parameter		Ctrl+Alt+P
+		Inline					Ctrl+Alt+N
+		Copy					F5
+		Move					F6
+		Refactor this			Ctrl+Shift+Alt+T
+
+Finding usages
+	Alt+F7
+Inspections
+	Alt+Enter快速修复
+formatting
+		Reformat code			Ctrl+Alt+L
+		Auto-indent lines		Ctrl+Alt+I
+		Optimize imports		Ctrl+Alt+O
+Version control basics
+			Alt+`
+		branch
+			会存在本地
+				甚至你可以存在stashes
+	
+Make
+		当保存时不会自动编译
+			所以请按ctrl+f9
+Running and debugging
+		run 	shift+f10
+		debug	shift+f9
+		debug action
+			step into			f7/shift+f7
+			Toggle breakpoint	Ctrl+F8
+			Step over			F8
+			Step out			shift+f8
+			Resume				f9
+			Evaluate expression	Alt+F8
+Application servers
+Working with build tools (Maven/Gradle)
+		If you want the IDE to synchronize your changes immediately, 
+		do the following:
+			use auto-importing在setting里配置
+			
+			
+int [] arr2 =new int[arr.length];  
+ int count = arr.length;  
+ int cbRandCount = 0;// 索引  
+ int cbPosition = 0;// 位置  
+ int k =0;  
+ do {  
+  runCount++;  
+  Random rand = new Random();  
+  int r = count - cbRandCount;  
+  cbPosition = rand.nextInt(r);   
+  arr2[k++] = arr[cbPosition];  
+  cbRandCount++;  
+  arr[cbPosition] = arr[r - 1];// 将最后一位数值赋值给已经被使用的cbPosition  
+ } while (cbRandCount < count);  
+ System.out.println("m3运算次数  = "+runCount);  
+ return arr2;  
+--------------------- 
+作者：ShellCollector 
+来源：CSDN 
+原文：https://blog.csdn.net/jacke121/article/details/66972488 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+			
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+	
 			
 		
 
