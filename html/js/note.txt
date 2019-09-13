@@ -1,0 +1,26 @@
+继承的核心有两点
+
+1.构造方法重写
+ A.child.prototype.constructor = Father;	
+ B.直接在child的构造里调用父类的构造
+2.原型对象指向上一级 几种写法： 
+ A.child.prototype = Object.create(Father)
+ B.child.prototype = new Facher 
+ C.child.prototype._proto_ = Father.prototype
+
+forEach()和map()两个方法都是ECMA5中Array引进的新方法
+jQuery也有一个方法$.each()
+
+forEach和map语法
+
+array.forEach(callback(currentValue, index, array)
+arr.map(callback[, thisArg])　
+$(selector).each(function(index,element))  //注意参数的顺序
+
+2.2、区别
+forEach()返回值是undefined，不可以链式调用。不会创建副本，所以尽量不要删除或者修改
+map()返回一个新数组，原数组不会改变。
+没有办法终止或者跳出forEach()循环，除非抛出异常
+$.each()方法规定为每个匹配元素规定运行的函数，可以返回 false 可用于及早停止循环。
+
+
