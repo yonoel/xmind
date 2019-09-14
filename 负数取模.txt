@@ -1,7 +1,0 @@
-假设 q 是 a、b 相除产生的商(quotient)，r 是相应的余数(remainder)
-a = b x q + r，其中 |r|<|a|
-
-因此 r = a-b*q
-所以如果-17%2
-就是 r = (-17)-(2*-8) = -1
-注意这里的商，也就是 q 每种语言取的方式可能不同，可能cell，fool或者truncate
