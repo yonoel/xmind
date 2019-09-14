@@ -1,7 +1,7 @@
 User interface
 	 When you need to go back to the editor, press  Escape
 	 Project 			alt+1
-	 Version Control 	alt+9
+	 Version Control 		alt+9
 	 run				alt+4
 	 debug				alt+5
 	 Terminal			alt+f12
@@ -96,35 +96,11 @@ Running and debugging
 			Step out			shift+f8
 			Resume				f9
 			Evaluate expression	Alt+F8
-Application servers
-Working with build tools (Maven/Gradle)
-		If you want the IDE to synchronize your changes immediately, 
-		do the following:
-			use auto-importing在setting里配置
+
+
 			
 			
-int [] arr2 =new int[arr.length];  
- int count = arr.length;  
- int cbRandCount = 0;// 索引  
- int cbPosition = 0;// 位置  
- int k =0;  
- do {  
-  runCount++;  
-  Random rand = new Random();  
-  int r = count - cbRandCount;  
-  cbPosition = rand.nextInt(r);   
-  arr2[k++] = arr[cbPosition];  
-  cbRandCount++;  
-  arr[cbPosition] = arr[r - 1];// 将最后一位数值赋值给已经被使用的cbPosition  
- } while (cbRandCount < count);  
- System.out.println("m3运算次数  = "+runCount);  
- return arr2;  
---------------------- 
-作者：ShellCollector 
-来源：CSDN 
-原文：https://blog.csdn.net/jacke121/article/details/66972488 
-版权声明：本文为博主原创文章，转载请附上博文链接！
-			
+
 
 
 

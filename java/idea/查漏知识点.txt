@@ -1,4 +1,0 @@
-查漏的知识点：
-	为啥不支持泛型数组：
-		公变数组(convariant array)和类型擦除（type erasure）
-	幂次法则		
