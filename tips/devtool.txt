@@ -1,0 +1,48 @@
+全部面板
+	打开 General Settings 对话框   ？,F1
+	下一个面板	 Ctrl + ]	
+	标签历史中后退	Ctrl + Alt + [	
+	跳转至标签页 1-9 (需要在设置对话框中开启服务)	Ctrl + 1-9	
+	打开/关闭 Console 或 关闭设置对话框	Esc	
+	刷新页面	F5, Ctrl + R	
+	强制刷新页面，清除缓存内容	Ctrl + F5, Ctrl + Shift + R	
+	放大 Ctrl + +	
+	恢复默认字体大小	Ctrl + 0	
+workflow
+	搜索、定位与过滤
+			Ctrl + O (Windows, Linux)
+	在当前文件中查找文本
+	在所有文件中查找文本 Ctrl + Shift + F (Windows, Linux)
+	根据函数或选择器在文件内查找	Ctrl + Shift + O (Windows, Linux)
+	跳至行号	Ctrl + L (Windows)
+
+自定义JavaScript片段
+	在soucrce里源码(Sources)、内容脚本(Content Scripts)和一个新的标签——代码片段(Snippets)
+
+元素(Elements) 面板
+	导航	Up, Down	
+	伸缩展开元素	Right, Left	
+	隐藏元素	H	
+	切换编辑为HTML	F2
+	右键单击某个元素时你可以做：
+			强制元素在某个伪类状态: (:active, :hover, :focus, :visited)
+			为元素设置断点（子元素修改，属性更改，元素删除）
+			清除 console
+		
+样式(Styles) 侧边栏
+		跳转到样式规则属性在样式表的行数	Ctrl + 单击某个CSS属性	
+		查看自动填充建议	Ctrl + 空格	
+		
+资源(Sources)面板
+			中断/恢复脚本执行	F8, Ctrl + \	
+			跳过下一个函数	F10, Ctrl + '	
+			跳入下一个函数	F11, Ctrl + ;	
+			跳出当前函数	Shift + F11, Ctrl + Shift + ;	
+			Select next call frame	Ctrl + .	
+			Select previous call frame	Ctrl + ,	
+			切换断点状态	单击行数, Ctrl + B	
+			编辑断点调节	右键单击行数	
+			Delete individual words	   Alt + Delete	
+			切换 console 并评估（ evaluate？） Sources 面板中选中的代码		Ctrl + Shift + E	
+			运行代码片段	Ctrl + Enter	
+		

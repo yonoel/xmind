@@ -1,0 +1,31 @@
+ctrl + \ 新的编辑器窗口
+	 + p 控制台
+	 + 1234567.。。。不同的窗口编辑
+Ctrl+Shift+P Command Palette 命令台  ? 通配符s
+控制台小技巧 输入@***直接定位打开的文件里的outline里东西  = crtl + shift + o
+Ctrl+, setting
+Ctrl+PageDown go to the right editor.
+千万别按ctrl + tab 是在命令台切换。。
+Ctrl+K W = ctrl + k ctrl + w close all editors in the editor group.
+
+
+Ctrl+K Ctrl+T to display the theme picker
+
+
+Basic Editing
+
+多选 alt+ click  Ctrl+Alt+Down Ctrl+D   Cmd+Click
+收缩和扩展选 Shift+Alt+Left and Shift+Alt+Right
+Column (box) selection#  Shift+Alt
+
+折叠代码 Ctrl+Shift+[ Ctrl+Shift+]  Fold All (Ctrl+K Ctrl+0） nfold All (Ctrl+K Ctrl+J） Fold All Block Comments (Ctrl+K Ctrl+/) 
+
+Go to Definition#	
+	Ctrl+Shift+O = @  typing : the symbols will be grouped by category
+	f12 You can jump to the definition with Ctrl+Click or open the definition to the side with Ctrl+Alt+Click
+	Find All References search (via Shift+F12)
+	Peek Definition (via Alt+F12),
+
+Refactoring 
+		
+	
