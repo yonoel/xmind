@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+=======
+js里的构造
+
+	1. function Person(arg){..... }//注意不要返回值，方法里的this，指向调用者 
+		// 方法名称首字母大写，区别构造和普通
+		let person = new Person()
+	2.Object()构造函数
+			var person1 = new Object();
+			var person1 = new Object({
+				  name : 'Chris',
+				  age : 38,
+				  greeting : function() {
+					alert('Hi! I\'m ' + this.name + '.');
+				  }
+				});
+	3.使用create()方法
+		var person2 = Object.create(person1);
+		缺点是比起构造函数，浏览器在更晚的时候才支持create()方法（IE9,  IE8 或甚至以前相比）
+
+
+>>>>>>> 39b2936cdf37e25d37b1cc75efcd953195165b3a
 继承的核心有两点
 
 1.构造方法重写

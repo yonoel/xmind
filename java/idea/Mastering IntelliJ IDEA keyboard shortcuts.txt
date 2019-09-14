@@ -1,0 +1,6 @@
+Mastering IntelliJ IDEA keyboard shortcuts
+	Choose the right keymap
+	Learn shortcuts as you work
+		Find Action 	Ctrl+Shift+A 
+		
+		
