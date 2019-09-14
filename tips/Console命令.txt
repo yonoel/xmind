@@ -1,0 +1,44 @@
+ctrl+shift+j 打开console
+ctrl+l 清空console
+摁下 Tab 键会补全它们
+
+$() 方法返回匹配传递进去的 CSS 选择器的第一个元素 类似 document.querySelector()
+$$() 命令返回匹配传递进去 CSS 选择器的所有元素组成的数组 功能类似 document.querySelectorAll()
+x() 方法使用 XPath 路径作为参数然后返回所有匹配这个特定路径元素组成的数组  $x('/html/body/script');
+
+
+你可以在 DevTools Settings 对话框中的 General 标签下修改 Console 的两个全局选项：
+	Log XMLHTTPRequests—决定每个 XMLHTTPRequest 是否都显示在 Console 面板上。
+	Preserve log upon navigation—决定你在当前页面中 console 的记录是否会因为你跳转到其他页面而被清空。这两个选项默认都是禁用的。
+	
+console.log()不用+，用，也可以 console.log(arg,arg,arg)
+
+
+字符串替换和格式化
+	格式声明符通常以 % 符号为开头然后紧跟一个表示将要插入值的类型的字母
+	（例如 %s 表示这里要输出一个字符串）。格式声明符表示在当前位置将会被替换成某个传递进去的值。
+	%d 或者 %i	 int 
+	%o 将值格式化为一个可张开的 DOM 对象（类似 Elements 面板）。
+	%O	 将值格式化为一个可张开的 JavaScript 对象。
+	%c		将第二个参数传递进去的 CSS 样式应用在输出的字符串上。
+		console.log("%cThis will be formatted with large, blue text", "color: blue; font-size: x-large");
+
+
+	console.dir() 方法来输出一个元素的 JavaScript 描述： console.dir(document.body.firstElementChild);
+	=== console.log("%O", document.body.firstElementChild);
+
+	测量某项任务所用时间
+		你可以使用 console.time() 和 console.timeEnd()
+		 你必须向 console.time() 和 timeEnd() 中传递相同的字符串
+		 
+监听事件
+		monitorEvents() 命令可以监控某对象的一个或多个指定的事件
+				monitorEvents(window, "resize");
+				
+控制 CPU 分析器
+		你可以使用命令行命令 profile() 和 profileEnd() 来创建一个 JavaScript CPU 分析器（profiler）
+		参数是名字,可以嵌套
+			
+		
+		
+	

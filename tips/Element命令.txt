@@ -1,0 +1,1 @@
+Ctrl + Shift + C或者Cmd + Shift + C将在元素查看模式中打开开发者工具
